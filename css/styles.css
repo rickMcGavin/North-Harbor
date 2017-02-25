@@ -7,13 +7,21 @@ html {
 *:after {
   box-sizing: inherit; }
 
+.row {
+  display: flex;
+  justify-content: center;
+  width: 100%; }
+
 body {
   font-family: 'Lato', arial;
   margin: 0; }
 
 h1 {
-  color: #FFFFFF;
+  border-bottom: 3px solid #03A9F4;
+  border-radius: 5px;
   letter-spacing: 0.1em;
+  text-align: center;
+  color: #FFFFFF;
   margin: 0; }
 
 .lander {
@@ -25,17 +33,18 @@ h1 {
   background-position: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   text-align: center; }
   .lander h1 {
-    font-size: 3em;
-    font-weight: 400; }
+    font-size: 3em; }
   .lander div {
     color: #FFFFFF;
     font-size: 42px; }
     .lander div a {
       color: #FFFFFF;
       text-decoration: none; }
+    .lander div a:hover {
+      color: #ffa726; }
 
 .services {
   width: 100vw;
@@ -44,8 +53,18 @@ h1 {
   color: #212121;
   padding-top: 60px; }
   .services h2 {
-    font-size: 2em;
+    border-bottom: 3px solid #03A9F4;
+    border-radius: 5px;
     letter-spacing: 0.1em;
-    text-align: center; }
+    text-align: center;
+    display: inline-block;
+    font-size: 2em;
+    font-weight: 300; }
+  .services p {
+    letter-spacing: 1px;
+    margin: 20px 5%;
+    font-size: 18px;
+    font-weight: 300;
+    width: 80%; }
 
 /*# sourceMappingURL=styles.css.map */
