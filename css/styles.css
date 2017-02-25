@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400");
+html {
+  box-sizing: border-box; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+body {
+  font-family: 'Lato', arial;
+  margin: 0; }
+
+h1 {
+  color: #FFFFFF;
+  letter-spacing: 0.1em;
+  margin: 0; }
+
+.lander {
+  width: 100vw;
+  min-height: 100vh;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/harbor.jpeg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center; }
+  .lander h1 {
+    font-size: 3em;
+    font-weight: 400; }
+  .lander div {
+    color: #FFFFFF;
+    font-size: 42px; }
+    .lander div a {
+      color: #FFFFFF;
+      text-decoration: none; }
+
+.services {
+  width: 100vw;
+  min-height: 100vh;
+  background: #FFFFFF;
+  color: #212121;
+  padding-top: 60px; }
+  .services h2 {
+    font-size: 2em;
+    letter-spacing: 0.1em;
+    text-align: center; }
+
+/*# sourceMappingURL=styles.css.map */
